@@ -132,14 +132,14 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
                  pack = anu[0] !== "" ? anu[0] : citel.pushName + '♥️';
                  author = anu[1] !== "" ? anu[1] : Config.author;
              } else {
-                 pack = citel.pushName;
-                 author = "♥️";
+                 pack = "\t ㅤㅤ  🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n━『 𓄂⍣⃝🇳ᴇꪎꪎᴇʀ  ꢺᴀϻᴀ妥🕊️ 』━";
+                 author = "";
              }
                  let media = await citel.quoted.download();
                  citel.reply("*Processing Your request*");
                 let sticker = new Sticker(media, {
-                    pack: pack, // The pack name
-                    author: author, // The author name
+                    pack: "\t ㅤㅤ  🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n━『 𓄂⍣⃝🇳ᴇꪎꪎᴇʀ  ꢺᴀϻᴀ妥🕊️ 』━", // The pack name
+                    author: "", // The author name
                     type: text.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
                     categories: ["🤩", "🎉"], // The sticker category
                     id: "12345", // The sticker id
