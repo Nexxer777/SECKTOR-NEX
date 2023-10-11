@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: Secktor-Support*\n*Group Link:* https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbC`,
+            caption: `*Group Name: Weebs Domain*\n*Group Link:* https://chat.whatsapp.com/DF3fnIHbFxWEY3bqUAf7Is`,
         });
 
     }
@@ -168,13 +168,12 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *Tag All*   〙✪══
-
-➲ *Message :* ${text ? text : "blank"}\n\n
-➲ *Author:* ${citel.pushName} 🔖
+-----»⟩ ᴀᴛᴛᴇɴᴛɪᴏɴ ʜᴇʀᴇ ⟨«-----
+❐ *Message :* ${text ? text : "blank"}\n\n
+❖ *Author:* ${citel.pushName} 🔖
 `
         for (let mem of participants) {
-            textt += `📍 @${mem.id.split("@")[0]}\n`;
+            textt += `🍁 @${mem.id.split("@")[0]}\n`;
         }
         Void.sendMessage(citel.chat, {
             text: textt,
@@ -706,29 +705,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
-            pattern: "add",
-            desc: "Add that person in group",
-            fromMe: true,
-            category: "group",
-            filename: __filename,
-            use: '<number>',
-        },
-        async(Void, citel, text,{isCreator}) => {
-            if (!citel.isGroup) return citel.reply(tlang().group);
-            const groupAdmins = await getAdmin(Void, citel)
-            const botNumber = await Void.decodeJid(Void.user.id)
-            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
-            const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
 
-            if (!text) return citel.reply("Please provide me number.");
-            if (!isCreator) return citel.reply(tlang().owner)
-            if (!isBotAdmins) return citel.reply(tlang().botAdmin);
-            let users = citel.mentionedJid[0] ? citel.mentionedJid[0] : citel.quoted ? citel.quoted.sender : text.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
-            await Void.groupParticipantsUpdate(citel.chat, [users], "add");
-
-        }
-    )
     //---------------------------------------------------------------------------
 cmd({
             pattern: "getjids",
@@ -992,8 +969,8 @@ cmd({ on: "text" }, async(Void, citel) => {
 ║ *👤Name*: ${citel.pushName}
 ║ *🎐Level*: ${sck1.level}🍭
 ║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
-║ *📍Role*: *${role}*
-║ *Enjoy🥳*
+║ *👑Role*: *${role}*
+║ *Enjoy🗿*
 ╚════════════╝
 `,
             }, {
@@ -1004,3 +981,86 @@ cmd({ on: "text" }, async(Void, citel) => {
 
 })
 }
+
+//---------------------------------------------------------------------------
+cmd({
+        pattern: "broadcast",
+        desc: "Bot makes a broadcast in all groups",
+        fromMe: true,
+        category: "group",
+        filename: __filename,
+        use: '<text for broadcast.>',
+    },
+    async(Void, citel, text,{isCreator}) => {
+        if (!isCreator) return citel.reply(tlang().owner)
+        if(!text) return await citel.reply(`*_Uhh Dear, Provide text to broadcast in all groups_*`)
+        let getGroups = await Void.groupFetchAllParticipating();
+        let groups = Object.entries(getGroups)
+            .slice(0)
+            .map((entry) => entry[1]);
+        let anu = groups.map((v) => v.id);
+        citel.send(`*_Send Broadcast To ${anu.length} Group Chat, Finish Time ${ anu.length * 1.5} second_*`);
+        for (let i of anu) {
+            await sleep(1500);
+            let txt = `*--❗${tlang().title} Broadcast❗--*\n\n *🍀Author:* ${citel.pushName}\n\n${text}`;
+            let buttonMessaged = {
+                image: log0,
+                caption: txt,
+                footer: citel.pushName,
+                headerType: 1,
+                contextInfo: {
+                    forwardingScore: 999,
+                    isForwarded: false,
+                    externalAdReply: {
+                        title: 'Broadcast by ' + citel.pushName,
+                        body: tlang().title,
+                        thumbnail: log0,
+                        mediaUrl: '',
+                        mediaType: 2,
+                        sourceUrl: gurl,
+                        showAdAttribution: true,
+                    },
+                },
+            };
+            await Void.sendMessage(i, buttonMessaged, { quoted: citel,});
+        }
+        return await citel.reply(`*Successful Sending Broadcast To ${anu.length} Group(s)*`);
+    }
+)
+
+//---------------------------------------------------------------------------
+
+        //---------------------------------------------------------------------------
+cmd({
+    pattern: "tagadmin",
+    desc: "Tags only Admin numbers",
+    category: "group",
+    filename: __filename,
+    use: '<text>',
+},
+async(Void, citel, text , {isCreator}) => {
+    if (!citel.isGroup) return citel.reply(tlang().group);
+    const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
+    const participants = citel.isGroup ? await groupMetadata.participants : "";
+    const groupAdmins = participants.filter(p => p.admin)
+    const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
+    if (!isAdmins ) return citel.reply(tlang().admin);
+    if (!isAdmins && !isCreator) return citel.reply(tlang().admin);
+    const listAdmin = groupAdmins.map((v, i) => ` |  @${v.id.split('@')[0]}`).join('\n')
+
+
+let tag = `
+Tag by : @${citel.sender.split("@")[0]}
+${text ? "≡ Message :" + text : ""}
+
+┌─⊷ ADMINS
+${listAdmin}
+└───────────
+`.trim()
+return await Void.sendMessage(citel.chat,{text : tag ,mentions: [citel.sender, ...groupAdmins.map(v => v.id) ,]} ,)
+
+
+
+}
+)
+    //---------------------------------------------------------------------------
