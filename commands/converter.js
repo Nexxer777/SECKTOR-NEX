@@ -152,7 +152,7 @@ cmd({
             };
             let res = await axios.post("https://bot.lyo.su/quote/generate", body);
             let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return citel.reply(img,{packname:'Secktor',author:'Quotely'},"sticker")
+            return citel.reply(img,{packname:'\t ㅤㅤ  🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n━『 𓄂⍣⃝🇳ᥱꪎꪎᥱʀ ꢺᴀ⃖͢ϻᴀቾ🕊️ 』━',author:''},"sticker")
 
         }
     )
@@ -161,14 +161,14 @@ cmd({
             pattern: "fancy",
             desc: "Makes stylish/fancy given text",
             category: "converter",
-            use: '56 Secktor',
+            use: '56 Hinata Hyuga',
             react: "✅",
             filename: __filename
         },
         async(Void, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "Fancy text generator\n\nExample: .fancy 32 Secktor\n\n"
+                    "Fancy text generator\n\nExample: .fancy 58 Hinata\n"
                 );
                 listall("Secktor Bot").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
@@ -220,8 +220,8 @@ filename: __filename,
             let media = await citel.quoted.download();
             //citel.reply("*Processing Your request*");
             let sticker = new Sticker(media, {
-                pack: pack, // The pack name
-                author: author, // The author name
+                pack: "\t ㅤㅤ  🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n━『 𓄂⍣⃝🇳ᥱꪎꪎᥱʀ ꢺᴀ⃖͢ϻᴀቾ🕊️ 』━", // The pack name
+                author: "", // The author name
                 type: StickerTypes.CIRCLE ,
                 categories: ["🤩", "🎉"], // The sticker category
                 id: "12345", // The sticker id
@@ -252,8 +252,8 @@ filename: __filename,
             let media = await citel.quoted.download();
             //citel.reply("*Processing Your request*");
             let sticker = new Sticker(media, {
-                pack: pack, // The pack name
-                author: author, // The author name
+                pack: "\t ㅤㅤ  🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n━『 𓄂⍣⃝🇳ᥱꪎꪎᥱʀ ꢺᴀ⃖͢ϻᴀቾ🕊️ 』━", // The pack name
+                author: "", // The author name
                 type: StickerTypes.CROPPED,
                 categories: ["🤩", "🎉"], // The sticker category
                 id: "12345", // The sticker id
@@ -284,8 +284,8 @@ filename: __filename,
             let media = await citel.quoted.download();
             //citel.reply("*Processing Your request*");
             let sticker = new Sticker(media, {
-                pack: pack, // The pack name
-                author: author, // The author name
+                pack: "\t ㅤㅤ  🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n━『 𓄂⍣⃝🇳ᥱꪎꪎᥱʀ ꢺᴀ⃖͢ϻᴀቾ🕊️ 』━", // The pack name
+                author: "", // The author name
                 type: StickerTypes.ROUNDED ,
                 categories: ["🤩", "🎉"], // The sticker category
                 id: "12345", // The sticker id
