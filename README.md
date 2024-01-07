@@ -36,7 +36,7 @@
 - Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
 ## Deployment Methods
 ---
-1. ***Get [SESSION-ID](https://replit.com/@nexxersama001/Secktor-MD-QR) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [SESSION-ID](https://replit.com/@nexxersama001/SIGMA-MD-QR) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 
 ## Heroku Deployment Method
 2.  ***Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/Nexxer777/SECKTOR-NEX)***
