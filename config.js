@@ -12,15 +12,15 @@ global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/_just_an_weeb_?igshid=NGExMmI2YTkyZg==' // add your username
 global.sudo = process.env.SUDO || '916003951523'
 global.devs = '916003951523';
-global.website = 'https://instagram.com/_just_an_weeb_?igshid=NGExMmI2YTkyZg==' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.pinimg.com/236x/c5/d4/89/c5d48918e3293f11abb999fee49e4040.jpg'
+global.website = 'https://instagram.com/nexxer_sama' //wa.me/+91000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://wallpapercave.com/uwp/uwp4398841.jpeg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? '𝚮𝚰𝚴𝚫𝚻𝚫' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Nᥱꪎꪎᥱʀ  ꢺᴀϻᴀ妥' : process.env.OWNER_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '༺ 𝚴ᥱꪎꪎᥱʀ ꢺᴀ⃖ϻᴀቾ ༻' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? '' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '\t ㅤㅤ  🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n━『 𓄂⍣⃝🇳ᥱꪎꪎᥱʀ ꢺᴀ⃖͢ϻᴀቾ🕊️ 』━' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'ㅤㅤ🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n༺『🇳ᥱꪎꪎᥱʀ ꢺᴀ⃖ϻᴀቾ』༻' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
