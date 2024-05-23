@@ -170,10 +170,10 @@ cmd({
         let textt = `
 -----»⟩ ᴀᴛᴛᴇɴᴛɪᴏɴ ʜᴇʀᴇ ⟨«-----
 ❐ *Message :* ${text ? text : "blank"}\n\n
-❖ *Author:* ${citel.pushName} 🔖\n\n╔═════ ▓▓ ࿇ ▓▓ ═════╗
+❖ *Author:* ${citel.pushName} 🔖\n\n°❀ ⊱─━━━⊱༻「 *࿇* 」༺⊰━━━─⊰ ❀°
 `
         for (let mem of participants) {
-            textt += `║ @${mem.id.split("@")[0]}\n`;
+            textt += `✘ @${mem.id.split("@")[0]}\n`;
         }
         Void.sendMessage(citel.chat, {
             text: textt,
