@@ -19,7 +19,7 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,Secktor>',
+    use: 'Hi, Hinata',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -116,8 +116,7 @@ cmd({
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
         let cap = `Hey ${citel.pushName}\n
-*⭐ Total Stars:* ${data.stargazers_count} stars
-*🍽️ Forks:* ${data.forks_count} forks
+🍁 *Nexxer-MD* Is a private Repository, it's inspired from Secktor-MD 
 `
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -126,12 +125,12 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
-                    body: "Easy to Use",
+                    title: "“ᯓ𝐘𝚯𝐖𝚫𝚰 𝚳𝚯 !!”",
+                    body: "ᴛᴏᴜᴄʜ here🦋✨",
                     thumbnail: log0,
                     mediaType: 4,
                     mediaUrl: '',
-                    sourceUrl: ``,
+                    sourceUrl: `https://www.instagram.com/nexxer_sama`,
                 },
             },
         };
@@ -154,13 +153,13 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-🔰 *${tlang().title}* 🔰
+🔰 *H ɪ ɴ ᴀ ᴛ ᴀ  H ʏ ᴜ ɢ ᴀ* 🔰\n
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 0.0.7
 *👤Owner:*  ${Config.ownername}
-*Powered by ${tlang().title}*
+*🔰𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 : N ᴇ x x ᴇ ʀ 様*
 `;
         let buttonMessaged = {
             image: {
@@ -176,7 +175,7 @@ cmd({
                     thumbnail: log0,
                     mediaType: 2,
                     mediaUrl: ``,
-                    sourceUrl: ``,
+                    sourceUrl: `https://www.instagram.com/nexxer_sama`,
                 },
             },
         };
@@ -198,7 +197,7 @@ async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
 let str="*All available themes in Secktor*"
-str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\n these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+str+=`1. HINATA\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\n these are the themes of Nexxer-MD Userbot.\_Reply ${prefix}setvar THEME:HINATA`
 return citel.reply(str)
     
 }
