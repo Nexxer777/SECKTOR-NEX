@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: Weebs Domain*\n*Group Link:* https://chat.whatsapp.com/DF3fnIHbFxWEY3bqUAf7Is`,
+            caption: `*Group Name: Weebs Domain*\n*Group Link:* https://chat.whatsapp.com/F9AffPhLV8rJOa6JTXCi8H`,
         });
 
     }
@@ -145,7 +145,7 @@ cmd({
 		const participants = citel.isGroup ? await groupMetadata.participants : "";
     let textt = `_Here is jid address of all users of_\n *- ${groupMetadata.subject}*\n\n`
     for (let mem of participants) {
-            textt += `📍 ${mem.id}\n`;
+            textt += `🍂 ${mem.id}\n`;
         }
       citel.reply(textt)
 
@@ -170,10 +170,10 @@ cmd({
         let textt = `
 -----»⟩ ᴀᴛᴛᴇɴᴛɪᴏɴ ʜᴇʀᴇ ⟨«-----
 ❐ *Message :* ${text ? text : "blank"}\n\n
-❖ *Author:* ${citel.pushName} 🔖
+❖ *Author:* ${citel.pushName} 🔖\n\n╔═════ ▓▓ ࿇ ▓▓ ═════╗
 `
         for (let mem of participants) {
-            textt += `🍁 @${mem.id.split("@")[0]}\n`;
+            textt += `║ @${mem.id.split("@")[0]}\n╚═════ ▓▓ ࿇ ▓▓ ═════╝`;
         }
         Void.sendMessage(citel.chat, {
             text: textt,
