@@ -1,6 +1,6 @@
   <p align="center">  
   <a href="">
-    <img alt="secktor docs" height="300" src="">
+    <img alt="" height="300" src="">
     <h1 align="center"></h1>
   </a>
 </p>
