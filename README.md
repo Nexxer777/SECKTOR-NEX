@@ -39,7 +39,7 @@
 1. ***Get [SESSION-ID](https://replit.com/@nexxersama001/SIGMA-MD-QR) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 
 ## Heroku Deployment Method
-2.  ***Deploy on [Heroku].(https://dashboard.heroku.com/new?template=https://github.com/Nexxer777/SECKTOR-NEX)***
+2.  ***Deploy on [Heroku]([https://secktorub-b34f1c3c60d3.herokuapp.com//heroku](https://dashboard.heroku.com/new?template=https://github.com/Nexxer777/SECKTOR-NEX))***
 ## Koyeb Deployment Method
 
 3. ***Also Deploy on [Replit]( https://repl.it/github/Nexxer777/Secktor-Md)***
