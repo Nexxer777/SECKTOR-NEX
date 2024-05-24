@@ -1,7 +1,7 @@
   <p align="center">  
   <a href="https://secktoruserbot.onrender.com/">
     <img alt="secktor docs" height="300" src="">
-    <h1 align="center">Secktor-MD Whatsapp bot</h1>
+    <h1 align="center">Nexxer-MD Whatsapp bot</h1>
   </a>
 </p>
    
@@ -39,7 +39,7 @@
 1. ***Get [SESSION-ID](https://replit.com/@nexxersama001/SIGMA-MD-QR) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 
 ## Heroku Deployment Method
-2.  ***Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/Nexxer777/SECKTOR-NEX)***
+2.  ***Deploy on [Heroku].(https://dashboard.heroku.com/new?template=https://github.com/Nexxer777/SECKTOR-NEX)***
 ## Koyeb Deployment Method
 
 3. ***Also Deploy on [Replit]( https://repl.it/github/Nexxer777/Secktor-Md)***
