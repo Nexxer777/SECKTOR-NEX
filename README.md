@@ -36,7 +36,7 @@
 - Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
 ## Deployment Methods
 ---
-1. ***Get [SESSION-ID](https://secktorub-b34f1c3c60d3.herokuapp.com/id) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [SESSION-ID](https://replit.com/@nexxersama001/NEXXER-MD-QR) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 2.  ***Get a Mongodb uri from [Mongodb](https://github.com/SamPandey001/Secktor-Md/wiki/Mongodb-URI) | [Tutorial](https://www.youtube.com/watch?v=WWrpBCBlyuo).***
 
 
@@ -44,13 +44,13 @@
 ```
 mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
 ```
-3.  ***Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)***
+3.  ***Click [FORK](https://github.com/Nexxer777/SECKTOR-NEX/fork)***
 ## Heroku Deployment Method
-4.  ***Deploy on [Heroku](https://secktorub-b34f1c3c60d3.herokuapp.com//heroku)***
+4.  ***Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/Nexxer777/SECKTOR-NEX)***
 ## Koyeb Deployment Method
 5. ***[Deploy on Koyeb](https://secktorub-b34f1c3c60d3.herokuapp.com/koyeb) and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
 
-6. ***Also Deploy on [Replit]( https://repl.it/github/SamPandey001/Secktor-Md)***
+6. ***Also Deploy on [Replit]( https://repl.it/github/Nexxer777/SECKTOR-NEX)***
 
 If ***RUN*** Doesn't work, paste these commands in repl shell
 
