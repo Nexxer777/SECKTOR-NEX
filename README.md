@@ -7,7 +7,7 @@
    
 <p align="center">
 
-  <a aria-label="Join our chats" href="https://www.instagram.com/nexxer_sama" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/F9AffPhLV8rJOa6JTXCi8H" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
  
@@ -19,7 +19,7 @@
  
 ---
 
-<p align="center"><img src="https://profile-counter.glitch.me/{SamPandey001}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Nexxer777}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
 
   <p align="center"> Introducing Secktor,Secktor is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
  
