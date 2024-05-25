@@ -21,13 +21,13 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/{Nexxer777}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
 
-  <p align="center"> Introducing Secktor,Secktor is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
+  <p align="center"> Introducing NEXXER-MD,NEXXER-MD is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
  
- ***<p align="center"> Support us by subscribing our channel </p>***
+ ***<p align="center">  </p>***
  
    <p align="center">  
-  <a href="https://www.youtube.com/watch?v=k-DOQiLNuig">
-    <img alt="secktor docs" height="300" src="https://t3.ftcdn.net/jpg/03/00/38/90/360_F_300389025_b5hgHpjDprTySl8loTqJRMipySb1rO0I.jpg">
+  <a href="https://www.instagram.com/nexxer_sama">
+    <img alt="secktor docs" height="300" src="https://wallpapercave.com/uwp/uwp3880188.jpeg">
     <h1 align="center">Tap on above Image</h1>
   </a>
 </p>
@@ -40,10 +40,6 @@
 2.  ***Get a Mongodb uri from [Mongodb](https://github.com/SamPandey001/Secktor-Md/wiki/Mongodb-URI) | [Tutorial](https://www.youtube.com/watch?v=WWrpBCBlyuo).***
 
 
-***Free Mongodb URI,LOL***
-```
-mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
-```
 3.  ***Click [FORK](https://github.com/Nexxer777/SECKTOR-NEX/fork)***
 ## Heroku Deployment Method
 4.  ***Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/Nexxer777/SECKTOR-NEX)***
@@ -64,32 +60,14 @@ Copy the JSON down and paste in repl then fill the vars
 {
   "SESSION_ID": "ID-Here",
   "OWNER_NUMBER": "91xxxxxxxxxx",
-  "OWNER_NAME": "EREN JEAGER",
+  "OWNER_NAME": "NEXXER SAMA",
   "OPENAI_API_KEY": "null",
   "MONGODB_URI": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority",
-  "PACK_INFO": "Sam;Pandey",
-  "PREFIX": "."
+  "PACK_INFO": "NEXXER;SAMA",
+  "PREFIX": "-"
    
 }
 ```
-
-7.  ***[Deploy on Railway](https://secktorub-b34f1c3c60d3.herokuapp.com/railway)***
-
-8. ***[Deploy on MOGENIOUS](https://github.com/SamPandey001/Secktor-Md/wiki/Deploy-on-MOGENIOUS)***
-  
-9. ***Deploy in [Linux](https://github.com/SamPandey001/Secktor-Deploy#deploy-in-any-shell-including-termux)***
-
-10. if you get error in doing above try, [Deploy on VPS or PC.](https://github.com/SamPandey001/Secktor-Md/blob/main/deploy-on-vps.md)
----
-11. More info about [Secktor](https://secktorub-b34f1c3c60d3.herokuapp.com/).
-12. Deploy tutorial [Youtube Video](https://secktorub-b34f1c3c60d3.herokuapp.com/youtube).
-
-13. SUPPORT GROUP: <a href="https://chat.whatsapp.com/DG86OkvmerHKHJjkE5X2Wv"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
-
-- Star ⭐ repo if you like Secktor.
-### Thanks To
-
-- [Yusuf Usta](https://github.com/yusufusta) for Ideas
 
 ## License
 
