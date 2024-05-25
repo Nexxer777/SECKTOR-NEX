@@ -19,7 +19,7 @@
  
 ---
 
-<p align="center"><img src="https://profile-counter.glitch.me/{Nexxer777}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Nexxer777}/count.svg" alt="Nexxer777 :: Visitor's Count" /></p>
 
   <p align="center"> Introducing NEXXER-MD,NEXXER-MD is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
  
